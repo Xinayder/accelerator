@@ -15,7 +15,7 @@ jobs:
       key: ${{ steps.cache-key.outputs.key }}
 
     env:
-      SOURCEMOD_REF: '2e229b111534b1be007dc3bd9acfcf2fc472e893'
+      SOURCEMOD_REF: 'b34de51b8c7f92fc2a7242fc0195e2d64a69cefd'
       AMBUILD_REF: '9ed1920068c8a767ae78022102abc93a6822eaad'
     steps:
       - name: Create cache key
